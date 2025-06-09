@@ -1,4 +1,6 @@
 url: https://serigra.github.io/rmeidcine/
 template:
   bootstrap: 5
+  bslib:
+    bootswatch: litera
 
