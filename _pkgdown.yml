@@ -2,5 +2,11 @@ url: https://serigra.github.io/rmeidcine/
 template:
   bootstrap: 5
   bslib:
-    bootswatch: litera
+    bootswatch: zephyr
+    primary: "#C70000"
+    base_font: {google: "Outfit"}
+    code_font: {google: "Fira Code"}
+  light-switch: true
+  theme: atom-one-light
+  theme-dark: atom-one-dark
 
