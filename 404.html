@@ -17,7 +17,7 @@
 <link href="https://serigra.github.io/rmeidcine/deps/Fira_Code-0.4.10/font.css" rel="stylesheet">
 <link href="https://serigra.github.io/rmeidcine/deps/font-awesome-6.5.2/css/all.min.css" rel="stylesheet">
 <link href="https://serigra.github.io/rmeidcine/deps/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet">
-<script src="https://serigra.github.io/rmeidcine/deps/headroom-0.11.0/headroom.min.js"></script><script src="https://serigra.github.io/rmeidcine/deps/headroom-0.11.0/jQuery.headroom.min.js"></script><script src="https://serigra.github.io/rmeidcine/deps/bootstrap-toc-1.0.1/bootstrap-toc.min.js"></script><script src="https://serigra.github.io/rmeidcine/deps/clipboard.js-2.0.11/clipboard.min.js"></script><script src="https://serigra.github.io/rmeidcine/deps/search-1.0.0/autocomplete.jquery.min.js"></script><script src="https://serigra.github.io/rmeidcine/deps/search-1.0.0/fuse.min.js"></script><script src="https://serigra.github.io/rmeidcine/deps/search-1.0.0/mark.min.js"></script><!-- pkgdown --><script src="https://serigra.github.io/rmeidcine/pkgdown.js"></script><meta property="og:title" content="Page not found (404)">
+<script src="https://serigra.github.io/rmeidcine/deps/headroom-0.11.0/headroom.min.js"></script><script src="https://serigra.github.io/rmeidcine/deps/headroom-0.11.0/jQuery.headroom.min.js"></script><script src="https://serigra.github.io/rmeidcine/deps/bootstrap-toc-1.0.1/bootstrap-toc.min.js"></script><script src="https://serigra.github.io/rmeidcine/deps/clipboard.js-2.0.11/clipboard.min.js"></script><script src="https://serigra.github.io/rmeidcine/deps/search-1.0.0/autocomplete.jquery.min.js"></script><script src="https://serigra.github.io/rmeidcine/deps/search-1.0.0/fuse.min.js"></script><script src="https://serigra.github.io/rmeidcine/deps/search-1.0.0/mark.min.js"></script><!-- pkgdown --><script src="https://serigra.github.io/rmeidcine/pkgdown.js"></script><script src="https://serigra.github.io/rmeidcine/extra.js"></script><meta property="og:title" content="Page not found (404)">
 <meta property="og:image" content="https://serigra.github.io/rmeidcine/logo.png">
 </head>
 <body>
@@ -45,6 +45,7 @@
 </form></li>
 <li class="nav-item"><a class="external-link nav-link" href="https://github.com/serigra/rmeidcine/" aria-label="GitHub"><span class="fa fab fa-github fa-lg"></span></a></li>
 <li class="nav-item"><a class="external-link nav-link" href="https://www.linkedin.com/in/sereina-maria-graber-078701bb/" aria-label="LinkedIn"><span class="fa fa-linkedin"></span></a></li>
+<li class="nav-item"><a class="nav-link" href="NA" aria-label="JavaScript"><span class="fa fa-code"></span></a></li>
 <li class="nav-item dropdown">
   <button class="nav-link dropdown-toggle" type="button" id="dropdown-lightswitch" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true" aria-label="Light switch"><span class="fa fa-sun"></span></button>
   <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdown-lightswitch">
@@ -72,11 +73,11 @@ Content not found. Please use links in the navbar.
 
 
     <footer><div class="pkgdown-footer-left">
-  <p>Developed by Sereina M. Graber.</p>
+  <p>Developed by <a href="https://melissavanbussel.com/" class="external-link">Melissa Van Bussel</a> <span class="emoji" data-emoji="computer">💻</span> for the <a href="https://rconsortium.github.io/RMedicine_website/" class="external-link">R/Medicine 2025 Conference</a>.</p>
 </div>
 
 <div class="pkgdown-footer-right">
-  <p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.1.3.</p>
+  <p>This site was built using <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a>!  <img src="https://pkgdown.r-lib.org/logo.png" alt="pkgdown logo" width="25"></p>
 </div>
 
     </footer>
@@ -84,7 +85,19 @@ Content not found. Please use links in the navbar.
 
 
 
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script><script src="https://serigra.github.io/rmeidcine/NA">
+  document.addEventListener("DOMContentLoaded", function () {
+    document.addEventListener("click", function (e) {
+      if (typeof confetti === "function") {
+        const x = e.clientX / window.innerWidth;
+        const y = e.clientY / window.innerHeight;
 
-
-  </body>
+        confetti({
+          origin: { x: x, y: y }
+        });
+      }
+    });
+  });
+</script>
+</body>
 </html>
