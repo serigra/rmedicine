@@ -1,7 +1,9 @@
 
 # rmedicine
 
-This is a test package built during the workshop  *R package development with GitHub Pages and pkgdown* by [Melissa Van Bussel](https://github.com/melissavanbussel)
+This is a test package built during the workshop  *R package development with GitHub Pages and pkgdown* 
+by [Melissa Van Bussel](https://github.com/melissavanbussel) at the
+[R/Medicine conference](https://rconsortium.github.io/RMedicine_website/) 2025.
 
 **Course material** can be found here:
 
