@@ -10,3 +10,21 @@ template:
   theme: atom-one-light
   theme-dark: atom-one-dark
 
+reference:
+  - title: ":pencil: Functions that print things"
+    desc: These functions will all print things to your console.
+  - subtitle: ":one: First subsection"
+    contents:
+      - print_hello_world
+  - subtitle: ":two: Second subsection"
+    contents:
+      - print_hello_rmedicine
+
+navbar:
+  structure:
+    right: [search, github, my_linkedin, lightswitch]
+  components:
+    my_linkedin:
+      icon: fa-linkedin
+      href: https://www.linkedin.com/in/sereina-maria-graber-078701bb/
+      aria-label: LinkedIn
