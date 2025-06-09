@@ -1,15 +1,21 @@
 
-# rmeidcine
+# rmedicine
 
-# rmeidcine <a href="https://serigra.github.io/rmeidcine/"><img src="man/figures/logo.png" align="right" height="120" alt="rmeidcine website" /></a>
+This is a test package built during the workshop  *R package development with GitHub Pages and pkgdown* by [Melissa Van Bussel](https://github.com/melissavanbussel)
+
+**Course material** can be found here:
+
+* Slides: https://melissavanbussel.github.io/rmedicine/slides.html#/title-slide
+* GitHub: https://github.com/melissavanbussel/rmedicine/tree/main
+
+# rmedicine <a href="https://serigra.github.io/rmedicine/"><img src="man/figures/logo.png" align="right" height="120" alt="rmedicine website" /></a>
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of rmeidcine is to ...
 
 ## Installation
 
-You can install the development version of rmeidcine like so:
+You can install the development version of rmedicine like so:
 
 ``` r
 # FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
@@ -20,7 +26,7 @@ You can install the development version of rmeidcine like so:
 This is a basic example which shows you how to solve a common problem:
 
 ``` r
-library(rmeidcine)
+library(rmedicine)
 ## basic example code
 ```
 
