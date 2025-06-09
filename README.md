@@ -1,6 +1,7 @@
 
 # rmeidcine
 
+# rmeidcine <a href="https://serigra.github.io/rmeidcine/"><img src="man/figures/logo.png" align="right" height="120" alt="rmeidcine website" /></a>
 <!-- badges: start -->
 <!-- badges: end -->
 
